@@ -5,7 +5,7 @@
 例：设置http/https代理：
 
 ```
-gradlew -Dhttp.proxyHost=proxy.batechworks.com -Dhttp.proxyPort=8118 -Dhttps.proxyHost=proxy.batechworks.com -Dhttps.proxyPort=8118 clean app:assembleRelease
+gradlew -Dhttp.proxyHost=proxy.xxx.com -Dhttp.proxyPort=8118 -Dhttps.proxyHost=proxy.xxx.com -Dhttps.proxyPort=8118 clean app:assembleRelease
 ```
 
 自定义参数设置，有时候需要在脚本中获取一些敏感数据，但这些数据不能hard code到代码中，需要通过参数传递到脚本
